@@ -2,10 +2,11 @@ import React from "react";
 import Hero from "./Hero";
 import Models from "./Models";
 import HowItWorks from "./HowItWorks";
-import Benefits from "./benefits";
+
 import sol from "../assets/solicitud-enviada.png";
 import Button from "../components/Button";
 import Form from "../components/Form";
+import Benefits from "./benefits";
 const Home = () => {
   return (
     <>
