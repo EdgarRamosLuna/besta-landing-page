@@ -17,7 +17,7 @@ const Form = () => {
       <label htmlFor="" className="text-left mx-auto my-0 text-[12px] w-[90%]">
         Selecciona una opción:{" "}
       </label>
-      <select className="w-[90%] p-[0px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
+      <select className="w-[90%] p-[10px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
         <option value="0">Uber</option>
         <option value="1">Didi</option>
         <option value="2">Uber y Didi</option>
@@ -26,7 +26,7 @@ const Form = () => {
       <label htmlFor="" className="text-left mx-auto my-0 text-[12px] w-[90%]">
         ¿Cuántos viajes llevas realizados?:{" "}
       </label>
-      <select className="w-[90%] p-[0px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
+      <select className="w-[90%] p-[10px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
         <option value="Menos de 700">Menos de 700</option>
         <option value="Mas de 800">Mas de 800</option>
         <option value="Mas de 1,000">Más de 1,000</option>
@@ -35,7 +35,7 @@ const Form = () => {
       <label htmlFor="" className="text-left mx-auto my-0 text-[12px] w-[90%]">
         ¿En que parte de México vives?:{" "}
       </label>
-      <select className="w-[90%] p-[0px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
+      <select className="w-[90%] p-[10px] rounded-[10px] border-[1px] border-[#483e6b] bg-white outline-none h-[40px] text-[14px]">
         <option value="Nuevo León">Nuevo León</option>
         <option value="Guadalajara"> Guadalajara</option>
         <option value="Otro">Otro</option>
