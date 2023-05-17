@@ -1,7 +1,8 @@
-import React from "react";
 import car2 from "../assets/car2.png";
 import Button from "../components/Button";
-const Benefits = () => {
+import React from 'react'
+
+const benefits = () => {
   return (
     <div className="w-full" id="beneficios">
       <div className="title w-full text-center mx-auto p-[10px]">
@@ -20,7 +21,7 @@ const Benefits = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Benefits;
+export default benefits
