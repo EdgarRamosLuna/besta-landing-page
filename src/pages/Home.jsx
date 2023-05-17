@@ -5,6 +5,7 @@ import HowItWorks from "./HowItWorks";
 
 import sol from "../assets/solicitud-enviada.png";
 import Form from "../components/Form";
+import Bene from "./Bene";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Hero />
       <Models />
       <HowItWorks />
-      
+      <Bene />
       <footer className="w-full my-[150px]" id="contacto">
         <div className="w-full">
           <h1 className="mx-auto text-center text-[40px] font-bold mt-[40px]">
