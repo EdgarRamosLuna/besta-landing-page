@@ -5,14 +5,14 @@ import HowItWorks from "./HowItWorks";
 
 import sol from "../assets/solicitud-enviada.png";
 import Form from "../components/Form";
-import Benefits from "./benefits";
+
 const Home = () => {
   return (
     <>
       <Hero />
       <Models />
       <HowItWorks />
-      <Benefits />
+      
       <footer className="w-full my-[150px]" id="contacto">
         <div className="w-full">
           <h1 className="mx-auto text-center text-[40px] font-bold mt-[40px]">
