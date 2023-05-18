@@ -3,7 +3,8 @@ import Button from '../components/Button'
 import car2 from "../assets/car2.png";
 const Bene = () => {
   return (
-    <div className="w-full" id="beneficios">
+    <div className="w-full relative">
+      <div className="bg-transparent absolute top-[-100px]" id="beneficios" />
       <div className="title w-full text-center mx-auto p-[10px]">
         <h2 className="text-[35px] font-[800] ">BESTA ADAPTADO A TU VIDA</h2>
       </div>

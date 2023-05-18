@@ -21,7 +21,8 @@ const data = [
 ];
 const HowItWorks = () => {
   return (
-    <div className="w-full my-[50px]" id="comunidad">
+    <div className="w-full my-[50px] relative">
+      <div className="bg-transparent absolute top-[-100px]" id="comunidad" />
       <h1 className="mx-auto text-center text-[40px] font-bold mt-[40px]">
         Únete a nuestra comunidad BESTA
       </h1>

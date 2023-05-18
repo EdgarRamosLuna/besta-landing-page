@@ -28,7 +28,8 @@ const data = [
 ];
 const Models = () => {
   return (
-    <div className="w-full my-[50px]" id="models">
+    <div className="w-full my-[50px] relative">
+      <div className="bg-transparent absolute top-[-100px]" id="models" />
       <h1 className="mx-auto text-center text-[40px] font-bold">Modelos disponibles</h1>
       <div className="w-full flex justify-center gap-[70px] py-[10%] flex-wrap">
         {data.map((item, index) => (

@@ -1,9 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import calendarioico from "../assets/calendarioico.png";
 const Card = ({ key, title, description, image, price }) => {
+  const navigate = useNavigate();
+  const handleClick = (rote) => {
+    //navigate("/contacto");
+    navigate(`/formulario/${rote}`);
+  };
   return (
-    <div className="shadow-custom w-[366px]  hover:rounded-[10px] transition-all duration-[0.3s] hover:scale-[1.01] cursor-pointer">
+    <div className="shadow-custom w-[366px]  hover:rounded-[10px] transition-all duration-[0.3s] hover:scale-[1.01] cursor-pointer" onClick={() => handleClick(description)}>
       <div className=" flex flex-col justify-center items-center gap-[5px]">
         <h2 className="text-[25px] font-[800]">{title}</h2>
         <h3 className="text-[0.9rem] font-[100]">{description}</h3>

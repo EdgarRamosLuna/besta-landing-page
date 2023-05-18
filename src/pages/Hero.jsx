@@ -4,7 +4,7 @@ import check from "../assets/check.png";
 import down from "../assets/down.png";
 const Hero = () => {
   return (
-    <div className="w-full mt-[80px] flex flex-[1] justify-center gap-[25px] items-center  h-[calc(100vh-80px)] relative" id="home">
+    <div className="w-full mt-[80px] h-[calc(100vh-80px)] flex flex-[1] justify-center gap-[25px] items-center  relative">
       <div className="left w-[50%] flex justify-end">
         <img src={car} alt="car" className="w-[600px] h-[600px]" />
       </div>

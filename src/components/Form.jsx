@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const Form = () => {
+const Form = () => { 
   return (
     <form className="w-[80%] flex flex-col gap-[10px] items-center">
       <input

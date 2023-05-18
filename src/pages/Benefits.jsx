@@ -4,7 +4,7 @@ import React from 'react'
 
 const benefits = () => {
   return (
-    <div className="w-full" id="beneficios">
+    <div className="w-full relative">      
       <div className="title w-full text-center mx-auto p-[10px]">
         <h2 className="text-[35px] font-[800] ">BESTA ADAPTADO A TU VIDA</h2>
       </div>
